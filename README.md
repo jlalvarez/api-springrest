@@ -114,7 +114,7 @@ El fichero pom.xml debe tener un contenido con el siguiente:
 La aplicación principal del proyecto es src/main/java/es/cc/springdata/SpringdataApplication.java:
 
 ```java
-package es.cc.springdata;
+package mii.cc.examples.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -194,7 +194,7 @@ Dentro de la carpeta del paquete crea la interface que herede de CrudRepository:
 ```java
 // fichero UserRepository.java
 
-package edu.cc.examples.api;
+package mii.cc.examples.api;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
